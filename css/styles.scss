@@ -1,0 +1,7 @@
+// Stands for bootstrap-version-4
+.bsv4 {
+  // Prefix all selectors with .bsv4
+  // E.g. '*' selector becomes '.bsv4 *'
+  // Side effect is we have to have a wrapper element with .bsv4 for bootstrap classes to work
+  @import 'node_modules/bootstrap/scss/bootstrap.scss';
+}
